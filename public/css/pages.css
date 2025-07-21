@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #0e0e4e;
+    --secondary-color: #e3e3e3;
+    --third-color: #005eff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100dvh;
+}
+
+/* Main content area */
+.main-content {
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.card-header i {
+    color: var(--primary-color);
+}
+
+/* Table styling */
+#datatablesSimple {
+    width: 100%;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px 20px;
+    transition: margin-left 0.3s;
+}
