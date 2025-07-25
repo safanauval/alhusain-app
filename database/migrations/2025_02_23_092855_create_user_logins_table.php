@@ -8,7 +8,7 @@ return new class extends Migration {
     public function up()
     {
         Schema::create('user_logins', function (Blueprint $table) {
-            $table->id('id_user');
+            $table->integer('id_user', 10)->primary();
             $table->string('username', 20)->unique();
             $table->string('password', 30);
             $table->timestamps();
@@ -20,3 +20,5 @@ return new class extends Migration {
         Schema::dropIfExists('user_logins');
     }
 };
+
+
